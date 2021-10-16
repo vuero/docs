@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>برپایی پروژه خود | Vuero</title>
+    <meta name="description" content="Vue3 Admin and Webapp UI Kit.">
+    <link rel="stylesheet" href="/assets/style.b6992336.css">
+    <link rel="modulepreload" href="/assets/Home.188ee1ff.js">
+    <link rel="modulepreload" href="/assets/app.6662d0ca.js">
+    <link rel="modulepreload" href="/assets/documentation_setup-your-project.md.5cc54411.lean.js">
+    <link rel="modulepreload" href="/assets/app.6662d0ca.js">
+    <link rel="icon" type="image/svg+xml" href="/logo.svg">
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-1LDZ7CWBWK"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-1LDZ7CWBWK');</script>
+    <meta name="twitter:title" content="برپایی پروژه خود | Vuero">
+    <meta property="og:title" content="برپایی پروژه خود | Vuero">
+</head>
+<body>
+<div id="app"><!--[-->
+    <div class="theme">
+        <header class="nav-bar" data-v-40587210>
+            <div class="sidebar-button" data-v-40587210>
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"
+                     viewBox="0 0 448 512">
+                    <path fill="currentColor"
+                          d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"
+                          class></path>
+                </svg>
+            </div>
+            <a class="nav-bar-title" href="/" aria-label="Vuero, back to home" data-v-40587210 data-v-7ac13a1e><img
+                    class="logo" src="/logo.svg" alt="Logo" data-v-7ac13a1e> Vuero</a>
+            <div class="flex-grow" data-v-40587210></div>
+            <div class="nav" data-v-40587210>
+                <nav class="nav-links" data-v-40587210 data-v-640fc9fc><!--[-->
+                    <div class="item" data-v-640fc9fc>
+                        <div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item" href="/" data-v-49fe041d>Home
+                            <!----></a></div>
+                    </div>
+                    <div class="item" data-v-640fc9fc>
+                        <div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item active"
+                                                                                 href="/documentation/getting-started"
+                                                                                 data-v-49fe041d>Documentation
+                            <!----></a></div>
+                    </div>
+                    <div class="item" data-v-640fc9fc>
+                        <div class="nav-dropdown-link" data-v-640fc9fc data-v-18d75f62>
+                            <button class="button" data-v-18d75f62><span class="button-text" data-v-18d75f62>Cssninja Themes</span><span
+                                    class="right button-arrow" data-v-18d75f62></span></button>
+                            <ul class="dialog" data-v-18d75f62><!--[-->
+                                <li class="dialog-item" data-v-18d75f62>
+                                    <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                            class="item isExternal" href="https://docs.cssninja.io/" target="_blank"
+                                            rel="noopener noreferrer" data-v-07381bdb><span class="arrow"
+                                                                                            data-v-07381bdb></span><span
+                                            class="text" data-v-07381bdb>Documentation Hub</span><span class="icon"
+                                                                                                       data-v-07381bdb><svg
+                                            class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                            x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"
+                                            data-v-07381bdb><path fill="currentColor"
+                                                                  d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                            fill="currentColor"
+                                            points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                    </div>
+                                </li>
+                                <li class="dialog-item" data-v-18d75f62>
+                                    <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                            class="item isExternal" href="https://docs.cssninja.io/bulkit/"
+                                            target="_blank" rel="noopener noreferrer" data-v-07381bdb><span
+                                            class="arrow" data-v-07381bdb></span><span class="text" data-v-07381bdb>Bulkit</span><span
+                                            class="icon" data-v-07381bdb><svg class="icon outbound"
+                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                              aria-hidden="true" x="0px" y="0px"
+                                                                              viewbox="0 0 100 100" width="15"
+                                                                              height="15" data-v-07381bdb><path
+                                            fill="currentColor"
+                                            d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                            fill="currentColor"
+                                            points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                    </div>
+                                </li>
+                                <li class="dialog-item" data-v-18d75f62>
+                                    <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                            class="item isExternal" href="https://docs.cssninja.io/friendkit/"
+                                            target="_blank" rel="noopener noreferrer" data-v-07381bdb><span
+                                            class="arrow" data-v-07381bdb></span><span class="text" data-v-07381bdb>Friendkit</span><span
+                                            class="icon" data-v-07381bdb><svg class="icon outbound"
+                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                              aria-hidden="true" x="0px" y="0px"
+                                                                              viewbox="0 0 100 100" width="15"
+                                                                              height="15" data-v-07381bdb><path
+                                            fill="currentColor"
+                                            d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                            fill="currentColor"
+                                            points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                    </div>
+                                </li>
+                                <li class="dialog-item" data-v-18d75f62>
+                                    <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                            class="item isExternal" href="https://docs.cssninja.io/huro/"
+                                            target="_blank" rel="noopener noreferrer" data-v-07381bdb><span
+                                            class="arrow" data-v-07381bdb></span><span class="text"
+                                                                                       data-v-07381bdb>Huro</span><span
+                                            class="icon" data-v-07381bdb><svg class="icon outbound"
+                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                              aria-hidden="true" x="0px" y="0px"
+                                                                              viewbox="0 0 100 100" width="15"
+                                                                              height="15" data-v-07381bdb><path
+                                            fill="currentColor"
+                                            d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                            fill="currentColor"
+                                            points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                    </div>
+                                </li>
+                                <li class="dialog-item" data-v-18d75f62>
+                                    <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                            class="item isExternal" href="https://docs.cssninja.io/nephos/"
+                                            target="_blank" rel="noopener noreferrer" data-v-07381bdb><span
+                                            class="arrow" data-v-07381bdb></span><span class="text" data-v-07381bdb>Nephos</span><span
+                                            class="icon" data-v-07381bdb><svg class="icon outbound"
+                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                              aria-hidden="true" x="0px" y="0px"
+                                                                              viewbox="0 0 100 100" width="15"
+                                                                              height="15" data-v-07381bdb><path
+                                            fill="currentColor"
+                                            d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                            fill="currentColor"
+                                            points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                    </div>
+                                </li>
+                                <li class="dialog-item" data-v-18d75f62>
+                                    <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                            class="item isExternal" href="https://docs.cssninja.io/moebius/"
+                                            target="_blank" rel="noopener noreferrer" data-v-07381bdb><span
+                                            class="arrow" data-v-07381bdb></span><span class="text" data-v-07381bdb>Moebius</span><span
+                                            class="icon" data-v-07381bdb><svg class="icon outbound"
+                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                              aria-hidden="true" x="0px" y="0px"
+                                                                              viewbox="0 0 100 100" width="15"
+                                                                              height="15" data-v-07381bdb><path
+                                            fill="currentColor"
+                                            d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                            fill="currentColor"
+                                            points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                    </div>
+                                </li>
+                                <li class="dialog-item" data-v-18d75f62>
+                                    <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                            class="item active" href="/" data-v-07381bdb><span class="arrow"
+                                                                                               data-v-07381bdb></span><span
+                                            class="text" data-v-07381bdb>Vuero</span><span class="icon" data-v-07381bdb><!----></span></a>
+                                    </div>
+                                </li>
+                                <li class="dialog-item" data-v-18d75f62>
+                                    <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                            class="item isExternal" href="https://docs.cssninja.io/listkit/"
+                                            target="_blank" rel="noopener noreferrer" data-v-07381bdb><span
+                                            class="arrow" data-v-07381bdb></span><span class="text" data-v-07381bdb>Listkit</span><span
+                                            class="icon" data-v-07381bdb><svg class="icon outbound"
+                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                              aria-hidden="true" x="0px" y="0px"
+                                                                              viewbox="0 0 100 100" width="15"
+                                                                              height="15" data-v-07381bdb><path
+                                            fill="currentColor"
+                                            d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                            fill="currentColor"
+                                            points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                    </div>
+                                </li>
+                                <li class="dialog-item" data-v-18d75f62>
+                                    <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                            class="item isExternal" href="https://docs.cssninja.io/gulp-alpine/"
+                                            target="_blank" rel="noopener noreferrer" data-v-07381bdb><span
+                                            class="arrow" data-v-07381bdb></span><span class="text" data-v-07381bdb>Gulp + Alpine JS Products</span><span
+                                            class="icon" data-v-07381bdb><svg class="icon outbound"
+                                                                              xmlns="http://www.w3.org/2000/svg"
+                                                                              aria-hidden="true" x="0px" y="0px"
+                                                                              viewbox="0 0 100 100" width="15"
+                                                                              height="15" data-v-07381bdb><path
+                                            fill="currentColor"
+                                            d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                            fill="currentColor"
+                                            points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                    </div>
+                                </li><!--]--></ul>
+                        </div>
+                    </div>
+                    <div class="item" data-v-640fc9fc>
+                        <div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item isExternal"
+                                                                                 href="https://vuero.cssninja.io/"
+                                                                                 target="_blank"
+                                                                                 rel="noopener noreferrer"
+                                                                                 data-v-49fe041d>Demo
+                            <svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px"
+                                 y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-49fe041d>
+                                <path fill="currentColor"
+                                      d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path>
+                                <polygon fill="currentColor"
+                                         points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon>
+                            </svg>
+                        </a></div>
+                    </div><!--]--><!---->
+                    <div class="item" data-v-640fc9fc>
+                        <div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item isExternal"
+                                                                                 href="https://themeforest.net/item/vuero-vuejs-3-admin-and-webapp-ui-kit/31053035"
+                                                                                 target="_blank"
+                                                                                 rel="noopener noreferrer"
+                                                                                 data-v-49fe041d>Themeforest
+                            <svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px"
+                                 y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-49fe041d>
+                                <path fill="currentColor"
+                                      d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path>
+                                <polygon fill="currentColor"
+                                         points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon>
+                            </svg>
+                        </a></div>
+                    </div>
+                </nav>
+            </div><!--[--><!--]--></header>
+        <aside class="sidebar" data-v-17c48e2f>
+            <nav class="nav-links nav" data-v-17c48e2f data-v-640fc9fc><!--[-->
+                <div class="item" data-v-640fc9fc>
+                    <div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item" href="/" data-v-49fe041d>Home
+                        <!----></a></div>
+                </div>
+                <div class="item" data-v-640fc9fc>
+                    <div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item active"
+                                                                             href="/documentation/getting-started"
+                                                                             data-v-49fe041d>Documentation <!----></a>
+                    </div>
+                </div>
+                <div class="item" data-v-640fc9fc>
+                    <div class="nav-dropdown-link" data-v-640fc9fc data-v-18d75f62>
+                        <button class="button" data-v-18d75f62><span class="button-text"
+                                                                     data-v-18d75f62>Cssninja Themes</span><span
+                                class="right button-arrow" data-v-18d75f62></span></button>
+                        <ul class="dialog" data-v-18d75f62><!--[-->
+                            <li class="dialog-item" data-v-18d75f62>
+                                <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                        class="item isExternal" href="https://docs.cssninja.io/" target="_blank"
+                                        rel="noopener noreferrer" data-v-07381bdb><span class="arrow"
+                                                                                        data-v-07381bdb></span><span
+                                        class="text" data-v-07381bdb>Documentation Hub</span><span class="icon"
+                                                                                                   data-v-07381bdb><svg
+                                        class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-07381bdb><path
+                                        fill="currentColor"
+                                        d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                        fill="currentColor"
+                                        points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                </div>
+                            </li>
+                            <li class="dialog-item" data-v-18d75f62>
+                                <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                        class="item isExternal" href="https://docs.cssninja.io/bulkit/" target="_blank"
+                                        rel="noopener noreferrer" data-v-07381bdb><span class="arrow"
+                                                                                        data-v-07381bdb></span><span
+                                        class="text" data-v-07381bdb>Bulkit</span><span class="icon" data-v-07381bdb><svg
+                                        class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-07381bdb><path
+                                        fill="currentColor"
+                                        d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                        fill="currentColor"
+                                        points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                </div>
+                            </li>
+                            <li class="dialog-item" data-v-18d75f62>
+                                <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                        class="item isExternal" href="https://docs.cssninja.io/friendkit/"
+                                        target="_blank" rel="noopener noreferrer" data-v-07381bdb><span class="arrow"
+                                                                                                        data-v-07381bdb></span><span
+                                        class="text" data-v-07381bdb>Friendkit</span><span class="icon" data-v-07381bdb><svg
+                                        class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-07381bdb><path
+                                        fill="currentColor"
+                                        d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                        fill="currentColor"
+                                        points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                </div>
+                            </li>
+                            <li class="dialog-item" data-v-18d75f62>
+                                <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                        class="item isExternal" href="https://docs.cssninja.io/huro/" target="_blank"
+                                        rel="noopener noreferrer" data-v-07381bdb><span class="arrow"
+                                                                                        data-v-07381bdb></span><span
+                                        class="text" data-v-07381bdb>Huro</span><span class="icon" data-v-07381bdb><svg
+                                        class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-07381bdb><path
+                                        fill="currentColor"
+                                        d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                        fill="currentColor"
+                                        points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                </div>
+                            </li>
+                            <li class="dialog-item" data-v-18d75f62>
+                                <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                        class="item isExternal" href="https://docs.cssninja.io/nephos/" target="_blank"
+                                        rel="noopener noreferrer" data-v-07381bdb><span class="arrow"
+                                                                                        data-v-07381bdb></span><span
+                                        class="text" data-v-07381bdb>Nephos</span><span class="icon" data-v-07381bdb><svg
+                                        class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-07381bdb><path
+                                        fill="currentColor"
+                                        d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                        fill="currentColor"
+                                        points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                </div>
+                            </li>
+                            <li class="dialog-item" data-v-18d75f62>
+                                <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                        class="item isExternal" href="https://docs.cssninja.io/moebius/" target="_blank"
+                                        rel="noopener noreferrer" data-v-07381bdb><span class="arrow"
+                                                                                        data-v-07381bdb></span><span
+                                        class="text" data-v-07381bdb>Moebius</span><span class="icon" data-v-07381bdb><svg
+                                        class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-07381bdb><path
+                                        fill="currentColor"
+                                        d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                        fill="currentColor"
+                                        points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                </div>
+                            </li>
+                            <li class="dialog-item" data-v-18d75f62>
+                                <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                        class="item active" href="/" data-v-07381bdb><span class="arrow"
+                                                                                           data-v-07381bdb></span><span
+                                        class="text" data-v-07381bdb>Vuero</span><span class="icon" data-v-07381bdb><!----></span></a>
+                                </div>
+                            </li>
+                            <li class="dialog-item" data-v-18d75f62>
+                                <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                        class="item isExternal" href="https://docs.cssninja.io/listkit/" target="_blank"
+                                        rel="noopener noreferrer" data-v-07381bdb><span class="arrow"
+                                                                                        data-v-07381bdb></span><span
+                                        class="text" data-v-07381bdb>Listkit</span><span class="icon" data-v-07381bdb><svg
+                                        class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-07381bdb><path
+                                        fill="currentColor"
+                                        d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                        fill="currentColor"
+                                        points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                </div>
+                            </li>
+                            <li class="dialog-item" data-v-18d75f62>
+                                <div class="nav-dropdown-link-item" data-v-18d75f62 data-v-07381bdb><a
+                                        class="item isExternal" href="https://docs.cssninja.io/gulp-alpine/"
+                                        target="_blank" rel="noopener noreferrer" data-v-07381bdb><span class="arrow"
+                                                                                                        data-v-07381bdb></span><span
+                                        class="text" data-v-07381bdb>Gulp + Alpine JS Products</span><span class="icon"
+                                                                                                           data-v-07381bdb><svg
+                                        class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                                        x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-07381bdb><path
+                                        fill="currentColor"
+                                        d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon
+                                        fill="currentColor"
+                                        points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></span></a>
+                                </div>
+                            </li><!--]--></ul>
+                    </div>
+                </div>
+                <div class="item" data-v-640fc9fc>
+                    <div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item isExternal"
+                                                                             href="https://vuero.cssninja.io/"
+                                                                             target="_blank" rel="noopener noreferrer"
+                                                                             data-v-49fe041d>Demo
+                        <svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px"
+                             viewbox="0 0 100 100" width="15" height="15" data-v-49fe041d>
+                            <path fill="currentColor"
+                                  d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path>
+                            <polygon fill="currentColor"
+                                     points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon>
+                        </svg>
+                    </a></div>
+                </div><!--]--><!---->
+                <div class="item" data-v-640fc9fc>
+                    <div class="nav-link" data-v-640fc9fc data-v-49fe041d><a class="item isExternal"
+                                                                             href="https://themeforest.net/item/vuero-vuejs-3-admin-and-webapp-ui-kit/31053035"
+                                                                             target="_blank" rel="noopener noreferrer"
+                                                                             data-v-49fe041d>Themeforest
+                        <svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px"
+                             viewbox="0 0 100 100" width="15" height="15" data-v-49fe041d>
+                            <path fill="currentColor"
+                                  d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path>
+                            <polygon fill="currentColor"
+                                     points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon>
+                        </svg>
+                    </a></div>
+                </div>
+            </nav><!--[--><!--]-->
+            <ul class="sidebar-links" data-v-17c48e2f><!--[-->
+                <li class="sidebar-link"><p class="sidebar-link-item">Vuero Documentation</p>
+                    <ul class="sidebar-links">
+                        <li class="sidebar-link"><a class="sidebar-link-item" href="/documentation/getting-started">شروع
+                            به کار</a><!----></li>
+                        <li class="sidebar-link"><a class="sidebar-link-item active"
+                                                    href="/documentation/setup-your-project">برپایی پروژه خود</a>
+                            <ul class="sidebar-links">
+                                <li class="sidebar-link"><a class="sidebar-link-item" href="#base-project-files">فایل‌های
+                                    اصلی پروژه</a><!----></li>
+                                <li class="sidebar-link"><a class="sidebar-link-item" href="#linters-and-editors-files">فایل‌های
+                                    مربوط به ویرایشگرها و لینترها (خطایاب‌ها)</a><!----></li>
+                                <li class="sidebar-link"><a class="sidebar-link-item" href="#vuero-base-files">فایل‌های
+                                    اصلی خود ویوئِرو</a><!----></li>
+                                <li class="sidebar-link"><a class="sidebar-link-item" href="#select-a-layout">انتخاب یک
+                                    طرح بندی</a><!----></li>
+                                <li class="sidebar-link"><a class="sidebar-link-item" href="#your-first-page">اولین صفحه
+                                    شما</a><!----></li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-link"><a class="sidebar-link-item" href="/documentation/vuero-and-vue-3">ویوئِرو
+                            و Vue 3</a><!----></li>
+                        <li class="sidebar-link"><a class="sidebar-link-item" href="/documentation/customizing-vuero">Customizing
+                            Vuero</a><!----></li>
+                        <li class="sidebar-link"><a class="sidebar-link-item" href="/documentation/going-further">Going
+                            further</a><!----></li>
+                        <li class="sidebar-link"><a class="sidebar-link-item" href="/documentation/common-issues">Common
+                            issues</a><!----></li>
+                        <li class="sidebar-link"><a class="sidebar-link-item" href="/documentation/customer-support">Customer
+                            support</a><!----></li>
+                        <li class="sidebar-link"><a class="sidebar-link-item"
+                                                    href="/documentation/changelog">Changelog</a><!----></li>
+                    </ul>
+                </li><!--]--></ul><!--[--><!--]--></aside><!-- TODO: make this button accessible -->
+        <div class="sidebar-mask"></div>
+        <main class="page" data-v-8fcebc32>
+            <div class="container" data-v-8fcebc32><!--[--><!--]-->
+                <div style="position:relative;" class="content" data-v-8fcebc32>
+                    <div><h1 id="setup-your-project"><a class="header-anchor" href="#setup-your-project"
+                                                        aria-hidden="true">#</a> برپایی پروژه خود</h1>
+                        <div style="text-align:center;margin:30px 0;">
+                            <iframe width="720" height="405" src="https://www.youtube.com/embed/lE5VNpP8JqA"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                        </div>
+                        <div class="tip custom-block"><p class="custom-block-title">نکته</p>
+                            <p>نتیجه ویدئو را در <code>quickstarter-vuero-vX.X.X.zip</code> با نمونه احراز هویت خواهید
+                                یافت.</p></div>
+                        <h2 id="base-project-files"><a class="header-anchor" href="#base-project-files"
+                                                       aria-hidden="true">#</a> فایل‌های اصلی پروژه</h2>
+                        <p>یک پوشه خالی ایجاد کنید که از آن شروع می کنیم ، ممکن است بخواهید از گیت برای کنترل نسخه پروژه
+                            استفاده کنید ، سپس این فایل‌های اصلی را از Vuero کپی کنید.</p>
+                        <div class="language-jolie"><pre><code>MyVuero
+<span class="token symbol">|</span><span class="token operator">--</span> src<span class="token operator">/</span>
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span
+                                    class="token operator">--</span> locales<span class="token operator">/</span>
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span class="token operator">--</span> App<span
+                                    class="token punctuation">.</span>vue
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span
+                                    class="token operator">--</span> i18n<span class="token punctuation">.</span>ts
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span class="token operator">--</span> <span
+                                    class="token keyword">main</span><span class="token punctuation">.</span>ts
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span
+                                    class="token operator">--</span> styles<span class="token punctuation">.</span>ts
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span
+                                    class="token operator">--</span> router<span class="token punctuation">.</span>ts
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span
+                                    class="token operator">--</span> shims<span class="token operator">-</span>vue<span
+                                    class="token punctuation">.</span>d<span class="token punctuation">.</span>ts
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span
+                                    class="token operator">--</span> window<span
+                                    class="token punctuation">.</span>d<span class="token punctuation">.</span>ts
+<span class="token symbol">|</span>
+<span class="token symbol">|</span><span class="token operator">--</span> <span class="token punctuation">.</span>gitignore
+<span class="token symbol">|</span><span class="token operator">--</span> index<span class="token punctuation">.</span>html
+<span class="token symbol">|</span><span class="token operator">--</span> package<span
+                                    class="token punctuation">.</span>json
+<span class="token symbol">|</span><span class="token operator">--</span> tsconfig<span
+                                    class="token punctuation">.</span>json
+<span class="token symbol">|</span><span class="token operator">--</span> vite<span class="token punctuation">.</span>config<span
+                                    class="token punctuation">.</span>ts
+</code></pre>
+                        </div>
+                        <p>این فایل‌ها برای شروع پروژه لازم هستند. با دقت به این فایل‌ها نگاه کنید
+                            <code>vite.config.ts</code>، <code>index.html</code>، <code>src/main.ts</code> و <code>package.json</code>.
+                        </p>
+                        <p>بسته به اینکه یارن استفاده میکنید یا ان‌پی‌ام (توصیه می کنیم از <code>yarn</code> استفاده
+                            کنید)، باید <code>yarn.lock</code> یا <code>package-lock.json</code> را کپی کنید.</p>
+                        <p>همچنین ، باید این پوشه های خالی را ایجاد کنید:</p>
+                        <div class="language-jolie"><pre><code>MyVuero
+<span class="token symbol">|</span><span class="token operator">--</span> public<span class="token operator">/</span>
+<span class="token symbol">|</span><span class="token operator">--</span> src<span class="token operator">/</span>
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span
+                                    class="token operator">--</span> assets<span class="token operator">/</span>
+</code></pre>
+                        </div>
+                        <div class="tip custom-block"><p class="custom-block-title">نکته</p>
+                            <p>نگاهی به <code>vite.config.ts</code> بیاندازید که از افزونه های جالب زیادی استفاده شده
+                                است!</p></div>
+                        <div class="warning custom-block"><p class="custom-block-title">هشدار</p>
+                            <p>اگر با خطای <code>[Vue Router warn]: No match found for location with path
+                                &quot;/&quot;</code> مواجه شدید می‌توانید <code>import routes from &#39;pages-generated&#39;</code>
+                                را با <code>import routes from &#39;virtual:pages-generated&#39;</code> در فایل <code>src/router.ts</code>
+                                تعویض کنید</p></div>
+                        <h2 id="linters-and-editors-files"><a class="header-anchor" href="#linters-and-editors-files"
+                                                              aria-hidden="true">#</a> فایل‌های مربوط به ویرایشگرها و
+                            لینترها (خطایاب‌ها)</h2>
+                        <div class="language-jolie"><pre><code>MyVuero
+<span class="token symbol">|</span><span class="token operator">--</span> <span class="token punctuation">.</span>vscode<span
+                                    class="token operator">/</span>
+<span class="token symbol">|</span><span class="token operator">--</span> <span class="token punctuation">.</span>editorconfig
+<span class="token symbol">|</span><span class="token operator">--</span> <span class="token punctuation">.</span>eslintignore
+<span class="token symbol">|</span><span class="token operator">--</span> <span class="token punctuation">.</span>eslintrc<span
+                                    class="token punctuation">.</span>js
+<span class="token symbol">|</span><span class="token operator">--</span> <span class="token punctuation">.</span>gitignore
+<span class="token symbol">|</span><span class="token operator">--</span> <span class="token punctuation">.</span>prettierignore
+<span class="token symbol">|</span><span class="token operator">--</span> <span class="token punctuation">.</span>prettierrc<span
+                                    class="token punctuation">.</span>js
+<span class="token symbol">|</span><span class="token operator">--</span> <span class="token punctuation">.</span>stylelintignore
+<span class="token symbol">|</span><span class="token operator">--</span> commitlint<span
+                                    class="token punctuation">.</span>config<span class="token punctuation">.</span>js
+<span class="token symbol">|</span><span class="token operator">--</span> stylelint<span
+                                    class="token punctuation">.</span>config<span class="token punctuation">.</span>js
+</code></pre>
+                        </div>
+                        <p>می توانید از پیکربندی خطایاب‌ها و ویرایشگر ما برای بهبود تجربه برنامه نویسی خود استفاده کنید.<br>
+                            توجه داشته باشید که اگر نمی خواهید از آنها استفاده کنید ، باید وابستگی های آنها را از <code>
+                                package.json </code> حذف کنید</p>
+                        <h2 id="vuero-base-files"><a class="header-anchor" href="#vuero-base-files"
+                                                     aria-hidden="true">#</a> فایل‌های اصلی خود ویوئِرو</h2>
+                        <div class="language-jolie"><pre><code>MyVuero
+<span class="token symbol">|</span><span class="token operator">--</span> src<span class="token operator">/</span>
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span class="token operator">--</span> components<span
+                                    class="token operator">/</span>
+<span class="token symbol">|</span>          <span class="token symbol">|</span><span class="token operator">--</span> base<span
+                                    class="token operator">/</span>
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span class="token operator">--</span> composable<span
+                                    class="token operator">/</span>
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span class="token operator">--</span> directives<span
+                                    class="token operator">/</span>
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span
+                                    class="token operator">--</span> scss<span class="token operator">/</span>
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span
+                                    class="token operator">--</span> state<span class="token operator">/</span>
+<span class="token symbol">|</span>   <span class="token symbol">|</span><span
+                                    class="token operator">--</span> utils<span class="token operator">/</span>
+</code></pre>
+                        </div>
+                        <div class="tip custom-block"><p class="custom-block-title">نکته</p>
+                            <p>سعی کنید این فایل ها را بازنویسی نکنید زیرا در نسخه های بعدی آنها را به روز خواهیم
+                                کرد</p></div>
+                        <h2 id="select-a-layout"><a class="header-anchor" href="#select-a-layout"
+                                                    aria-hidden="true">#</a> انتخاب یک طرح بندی</h2>
+                        <p>حالا ما باید یک طرح بندی را از بین موارد موجود انتخاب کنیم.</p>
+                        <ul dir="ltr">
+                            <li>SidebarLayout <code>src/layouts/SidebarLayout.vue</code>
+                                <ul>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-1" target="_blank"
+                                           rel="noopener noreferrer">Regular Sidebar</a>: <small><em>with
+                                        theme=&quot;<strong>default</strong>&quot;</em></small></li>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-2" target="_blank"
+                                           rel="noopener noreferrer">Curved Sidebar</a>: <small><em>with
+                                        theme=&quot;<strong>curved</strong>&quot;</em></small></li>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-3" target="_blank"
+                                           rel="noopener noreferrer">Colored Sidebar</a>: <small><em>with
+                                        theme=&quot;<strong>color</strong>&quot;</em></small></li>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-4" target="_blank"
+                                           rel="noopener noreferrer">Curved Colored Sidebar</a>: <small><em>with theme=&quot;<strong>color-curved</strong>&quot;</em></small>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-5" target="_blank"
+                                           rel="noopener noreferrer">Labels Sidebar</a>: <small><em>with
+                                        theme=&quot;<strong>labels</strong>&quot;</em></small></li>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-6" target="_blank"
+                                           rel="noopener noreferrer">Labels Hover Sidebar</a>: <small><em>with theme=&quot;<strong>labels-hover</strong>&quot;</em></small>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-7" target="_blank"
+                                           rel="noopener noreferrer">Float Sidebar</a>: <small><em>with
+                                        theme=&quot;<strong>float</strong>&quot;</em></small></li>
+                                </ul>
+                            </li>
+                            <li>NavbarLayout <code>src/layouts/NavbarLayout.vue</code>
+                                <ul>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-1" target="_blank"
+                                           rel="noopener noreferrer">Regular Navbar</a>: <small><em>with
+                                        theme=&quot;<strong>default</strong>&quot;</em></small></li>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-2" target="_blank"
+                                           rel="noopener noreferrer">Fading Navbar</a>: <small><em>with
+                                        theme=&quot;<strong>fade</strong>&quot;</em></small></li>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-3" target="_blank"
+                                           rel="noopener noreferrer">Colored Navbar</a>: <small><em>with
+                                        theme=&quot;<strong>colored</strong>&quot;</em></small></li>
+                                </ul>
+                            </li>
+                            <li>NavbarDropdownLayout <code>src/layouts/NavbarDropdownLayout.vue</code>
+                                <ul>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-4" target="_blank"
+                                           rel="noopener noreferrer">Dropdown Navbar</a>: <small><em>with
+                                        theme=&quot;<strong>default</strong>&quot;</em></small></li>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-5" target="_blank"
+                                           rel="noopener noreferrer">Colored Dropdown Navbar</a>: <small><em>with theme=&quot;<strong>colored</strong>&quot;</em></small>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>NavbarSearchLayout <code>src/layouts/NavbarSearchLayout.vue</code>
+                                <ul>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-6" target="_blank"
+                                           rel="noopener noreferrer">Clean Navbar</a>: <small><em>with
+                                        theme=&quot;<strong>default</strong>&quot;</em></small></li>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-7" target="_blank"
+                                           rel="noopener noreferrer">Clean Center Navbar</a>: <small><em>with theme=&quot;<strong>center</strong>&quot;</em></small>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-8" target="_blank"
+                                           rel="noopener noreferrer">Clean Fade Navbar</a>: <small><em>with theme=&quot;<strong>fade&quot;</strong></em></small>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p>طرح را در پوشه‌ی <code>src/layouts</code> پروژه‌ی خود کپی کنید. توجه داشته باشید که <code>AuthLayout</code>
+                            ، <code>MinimalLayout</code> و <code>MinimalLayoutLayout</code> نیز موجود است. آنها می
+                            توانند برای صفحات لندینگ ، ورود یا هر چیز دیگری استفاده شوند.</p>
+                        <p>اکنون باید همه اجزای مربوط به آن (ناوبری ها ، پانل ها و غیره ...) را به صورت دستی کپی
+                            کنید.<br><em>می توانید آنها را در هرجایی در پوشه‌ی <code>src/components</code> کپی
+                                کنید.</em></p>
+                        <div class="tip custom-block"><p class="custom-block-title">نکته</p>
+                            <p>ممکن است تصمیم بگیرید برخی از اجزا مانند <code>&lt;LanguagesPanel /&gt;</code> را در صورت
+                                عدم نیاز به آنها حذف کنید.</p></div>
+                        <div class="warning custom-block"><p class="custom-block-title">هشدار</p>
+                            <p>شما باید همه پارامترهای <code>&lt;RouterLink&gt;</code> را جایگزین کنید. یک راه خوب برای
+                                انجام این کار این است که همه نامها را با <code>index</code> جایگزین کنید</p></div>
+                        <h2 id="your-first-page"><a class="header-anchor" href="#your-first-page"
+                                                    aria-hidden="true">#</a> اولین صفحه شما</h2>
+                        <p>بیایید صفحه اول خود را ایجاد کنیم. برای انجام این کار ، محتوای فایل مورد نظر را بسته به طرح
+                            خود در <code>src/pages/index.vue</code> کپی کنید</p>
+                        <ul dir="ltr">
+                            <li>SidebarLayout
+                                <ul>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-1" target="_blank"
+                                           rel="noopener noreferrer">Regular Sidebar</a>: <code>src/pages/sidebar-blank-page-1.vue</code>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-2" target="_blank"
+                                           rel="noopener noreferrer">Curved Sidebar</a>: <code>src/pages/sidebar-blank-page-2.vue</code>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-3" target="_blank"
+                                           rel="noopener noreferrer">Colored Sidebar</a>: <code>src/pages/sidebar-blank-page-3.vue</code>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-4" target="_blank"
+                                           rel="noopener noreferrer">Curved Colored Sidebar</a>: <code>src/pages/sidebar-blank-page-4.vue</code>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-5" target="_blank"
+                                           rel="noopener noreferrer">Labels Sidebar</a>: <code>src/pages/sidebar-blank-page-5.vue</code>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-6" target="_blank"
+                                           rel="noopener noreferrer">Labels Hover Sidebar</a>: <code>src/pages/sidebar-blank-page-6.vue</code>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/sidebar-blank-page-7" target="_blank"
+                                           rel="noopener noreferrer">Float Sidebar</a>: <code>src/pages/sidebar-blank-page-7.vue</code>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>NavbarLayout
+                                <ul>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-1" target="_blank"
+                                           rel="noopener noreferrer">Regular Navbar</a>: <code>src/pages/navbar-blank-page-1.vue</code>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-2" target="_blank"
+                                           rel="noopener noreferrer">Fading Navbar</a>: <code>src/pages/navbar-blank-page-2.vue</code>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-3" target="_blank"
+                                           rel="noopener noreferrer">Colored Navbar</a>: <code>src/pages/navbar-blank-page-3.vue</code>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>NavbarDropdownLayout
+                                <ul>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-4" target="_blank"
+                                           rel="noopener noreferrer">Dropdown Navbar</a>: <code>src/pages/navbar-blank-page-4.vue</code>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-5" target="_blank"
+                                           rel="noopener noreferrer">Colored Dropdown Navbar</a>: <code>src/pages/navbar-blank-page-5.vue</code>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>NavbarSearchLayout
+                                <ul>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-6" target="_blank"
+                                           rel="noopener noreferrer">Clean Navbar</a>: <code>src/pages/navbar-blank-page-6.vue</code>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-7" target="_blank"
+                                           rel="noopener noreferrer">Clean Center Navbar</a>: <code>src/pages/navbar-blank-page-7.vue</code>
+                                    </li>
+                                    <li><a href="https://vuero.cssninja.io/navbar-blank-page-8" target="_blank"
+                                           rel="noopener noreferrer">Clean Fade Navbar</a>: <code>src/pages/navbar-blank-page-8.vue</code>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p>مانند مرحله قبل ، ما باید همه کامپوننت‌های مرتبط با آن (منوی تلفن همراه ، نوار ابزار و غیره
+                            ...) را به صورت دستی کپی کنیم..</p>
+                        <p>می توانید وابستگی ها را نصب کرده و پروژه خود را اجرا کنید!</p>
+                        <p>برای شروع سفارشی سازی صفحات خود ، می توانید محتوا را در پوشه‌ی
+                            <code>src/components/pages/</code> یا در فایل‌های <code>src/pages/wizard-v1.vue</code>,
+                            <code>src/pages/inbox.vue</code>, <code>src/pages/auth/login-1.vue</code>, <code>src/pages/auth.vue</code>
+                            بررسی کنید تا به نحوه‌ی چیدمان عناصر و ساخت برنامه های فوق العاده پی ببرید.</p></div>
+                </div>
+                <footer class="page-footer" data-v-8fcebc32 data-v-5c96fb00>
+                    <div class="edit" data-v-5c96fb00>
+                        <div class="edit-link" data-v-5c96fb00 data-v-55695e90><!----></div>
+                    </div>
+                    <div class="updated" data-v-5c96fb00><!----></div>
+                </footer>
+                <div class="next-and-prev-link" data-v-8fcebc32 data-v-e65a9748>
+                    <div class="container" data-v-e65a9748>
+                        <div class="prev" data-v-e65a9748><a class="link" href="/documentation/getting-started"
+                                                             data-v-e65a9748>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="icon icon-prev"
+                                 data-v-e65a9748>
+                                <path d="M19,11H7.4l5.3-5.3c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-7,7c-0.1,0.1-0.2,0.2-0.2,0.3c-0.1,0.2-0.1,0.5,0,0.8c0.1,0.1,0.1,0.2,0.2,0.3l7,7c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4L7.4,13H19c0.6,0,1-0.4,1-1S19.6,11,19,11z"></path>
+                            </svg>
+                            <span class="text" data-v-e65a9748>شروع به کار</span></a></div>
+                        <div class="next" data-v-e65a9748><a class="link" href="/documentation/vuero-and-vue-3"
+                                                             data-v-e65a9748><span class="text" data-v-e65a9748>ویوئِرو و Vue 3</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="icon icon-next"
+                                 data-v-e65a9748>
+                                <path d="M19.9,12.4c0.1-0.2,0.1-0.5,0-0.8c-0.1-0.1-0.1-0.2-0.2-0.3l-7-7c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l5.3,5.3H5c-0.6,0-1,0.4-1,1s0.4,1,1,1h11.6l-5.3,5.3c-0.4,0.4-0.4,1,0,1.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l7-7C19.8,12.6,19.9,12.5,19.9,12.4z"></path>
+                            </svg>
+                        </a></div>
+                    </div>
+                </div><!--[--><!--]--></div>
+        </main>
+    </div><!----><!--]--></div>
+<script>__VP_HASH_MAP__ = JSON.parse("{\"index.md\":\"7364a992\",\"documentation_changelog.md\":\"f78917ec\",\"documentation_common-issues.md\":\"a6ca976c\",\"documentation_customer-support.md\":\"b19841a7\",\"documentation_customizing-vuero.md\":\"10bb081b\",\"documentation_getting-started.md\":\"83ce9585\",\"documentation_going-further.md\":\"b672de7c\",\"documentation_setup-your-project.md\":\"5cc54411\",\"documentation_vuero-and-vue-3.md\":\"f9c19a03\"}")</script>
+<script type="module" async src="/assets/app.6662d0ca.js"></script>
+</body>
+</html>
